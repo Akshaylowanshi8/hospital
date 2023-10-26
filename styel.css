@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: o;
+
+}
+body{
+  font-family: "Manrope";
+  background-color: rgb(237, 237, 243);
+  height: 100%;
+
+
+    
+}
+button{
+  cursor: pointer;
+  
+}
+
+  
+
+/* navigation css */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 90px;
+    color: #ffffff;
+    
+}
+/* navigation list  */
+.list-1{ 
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    gap: 60px;
+    justify-content: center;
+    }
+    ul{
+        display: flex;
+    }
+    /* navigation blow line */
+    hr{
+    width: 900px;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 3px;
+    font-weight: 900;
+    margin-left: 200px;
+ justify-content: center;
+   }
+   /* headline  */
+    section{background-image: url(mainBackground.png);
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+   
+  .content-1{
+    
+    align-items: flex-start;
+    margin-top:130px;
+    color: #ffffff;
+    margin-left:280px;
+  }
+  .content-1 h1{
+    align-items: start;
+    font-size: 70px;
+  }
+  .p1 {
+    font-size: 22px;
+    font-weight: 1000;
+    padding: 20px;
+  }
+  /* hading button */
+  .b1{
+   font-size: 23px;
+    padding: 15px 30px ;
+    color: #ffffff;
+    background: blue;
+
+   font-weight: 700;
+   border-radius: 50px;
+   margin: 20px;
+
+  }
+  /* headline logos */   
+   .list--{
+        display: flex;
+        position: relative;
+        margin-top: 45px;
+  justify-content: center;
+  align-items: end;
+  height: 213px;
+  cursor: pointer;
+    }
+ .list-2{ 
+     width: 90%;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+     background: #ffffff;
+     border-radius: 20px;
+    gap:  30px;
+    list-style: none;
+
+    }
+
+.headline-2{ 
+  color: #000;
+  width: 500px;
+  font-size: 40px;
+  margin: 100px;
+  margin-left: 35%;
+  }
+  /* designig a card  */
+  .card{
+   
+    height:500px;
+    width: 400px;
+    color: #ffffff;
+    border-radius: 10px; 
+ }
+ .card img{
+    height: 100%;
+     width:100%;
+     border-radius: 30px;
+     position: relative;
+     z-index: -1;
+  }
+  .cardbox{
+    background-color:#ffffff;
+    box-shadow: #141212 0px 0px 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    width: 300px ;
+    border-radius: 40px;
+    margin-top: -50px;
+    margin-left: 45px;
+    
+  }
+  .cardbox div{
+  margin-top: 25px;
+  }
+  .cardbox h3{
+    color: #000;
+  }
+  .cardbox p{
+    color:blue;
+    font-size: 19px;
+    font-weight: 600;
+  }
+ .cardbox button{
+  height: 50px;
+  width: 100px;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 15px;
+  padding: 10px;
+
+ }
+ .cards-1{
+  display: flex;
+  justify-content:space-around;
+ }
+ .img-2{
+  margin-top: 40px;
+ }
+ .img-3{
+  margin-top: 80px;
+ }
+ /* 2-and  line cards */
+ .cards-2{
+  display: flex;
+  justify-content:space-around;
+ }
+ .img-6{
+  margin-top:140px ;
+ }
+ .img-5{
+  margin-top: 180px;
+ }
+ .img-4{
+  margin-top: 220px;
+ }
+
+ .cards-3{
+  display: flex;
+  justify-content:space-around;
+
+ }
+ .img-7{
+  margin-top: 300px;
+ }
+ .img-8{
+  margin-top: 340px;
+ }
+ .img-9{
+  margin-top: 380px;
+ }
+ /* fream designning */
+ .f-1{
+  display: flex;
+  
+  justify-content: space-between;
+  margin-top: 600px;
+ 
+ }
+ .c-1{
+  font-size: 25px;
+  padding: 30px;
+  margin-top: 60px;
+  width: 70%;
+ }
+ .img-11{
+margin-left: 150px;
+height: 450px ;
+ width : 495px;
+border-radius: 40px;
+
+ }
+ .bgc-11{
+  position: relative;
+  margin-top: -450px;
+  z-index:-1;
+ }
+ /* fream-2 */
+ .f-2{
+  display: flex;
+ }
+ .c-2{
+  font-size: 25px;
+  padding: 30px;
+  margin-top: 100px ;
+  width: 70%;
+ }
+ .img-22{
+  height: 450px ;
+   width : 495px;
+  border-radius: 40px;
+  margin-left: 60px;
+  
+   }
+   .bgc-22{
+    position: relative;
+    margin-top: -450px;
+    z-index:-1;
+   }
+   /* fream button */
+   .fb-1{
+    color: #fff;
+    font-weight: 700;
+    font-size: medium;
+    background-color: blue;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    margin-top: 30px;
+   }
+
+   /* last section */
+   .last{
+    justify-content: center;
+    height: 200px;
+    background: blue;
+    margin-left: 180px;
+    width: 750px;
+    text-align: center;
+    border-radius: 70px;
+    padding: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+   }
+   .last h1{
+    margin-bottom: 20px;
+   }
+   /* mail content */
+   .l-1{
+    display:flex;
+      justify-content: center;
+      margin: 40px;
+      gap: 30px;
+   }
+   /* mail side buttton */
+   .lb-2{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: blue;
+    font-weight: 700;
+    border: none;
+
+    
+   }
+   .lm-1{
+    background-color:blue;
+    box-shadow:  rgb(245, 245, 247) 0px 0px 08px 0px ;
+    padding: 10px 60px ;
+    border-radius: 30px;
+    color: transparent;
+    align-items: center;
+  
+
+   }
+   .lm-1 input{
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+
+    width: 90%;
+     border-radius: 30px;
+    background-color: transparent;
+    border: none;
+   }
+
+   /* footer desining */
+   footer{
+    margin: 100px 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content:space-between;
+   }
+   footer ul{
+    display: block;
+    list-style: none;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+  
+    
+   }
+
+   a{
+    text-decoration: none;
+    color: #000;
+   
+  }
+ @media screen and ( max-width: 700px ) {
+  
+  *{
+    margin: 0;
+    padding: o;
+  
+
+}
+body{
+
+}
+  .list-1{
+    display:none;
+  }
+  section{
+    display: block;
+  }
+  .cards-1,
+.cards-2 ,.cards-3{ display: block;
+ gap: 70px;
+
+}
+.f-1,.f-2{
+  display: block;
+}
+footer{
+  flex-direction: column;
+  justify-content: center;
+}
+footer ul{
+  padding: 40px;
+}
+.last{
+  display: none;
+}
+.list--{
+  display: none;
+}
+  }
